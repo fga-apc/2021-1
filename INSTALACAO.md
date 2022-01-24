@@ -22,7 +22,7 @@ A página do curso no Github é https://github.com/fga-apc/2021-2
 Checkio
 =======
 
-TO DO
+Crie uma conta no site http://checkio.org.
 
 
 
@@ -98,24 +98,18 @@ pyxel.run(update, draw)
 Compilador de C
 ===============
 
-TO DO!
+Utilizaremos o Tiny C Compiler (https://bellard.org/tcc/) e possivelmente outros.
 
 
-Jupyter Notebook (opcional)
-===========================
+Jupyter Notebook e IPython (opcional)
+=====================================
 
-TO DO!
-
-
-Git (opcional)
-==============
-
-TO DO!
+Instale com o comando `pip install notebook ipython`
 
 
-Linux (Máquina Virtual)
-=======================
+Outras tecnologias recomendadas
+===============================
 
-
-Linux (Dual Boot)
-=================
+* Git
+* Linux (Máquina Virtual)
+* Linux (Dual Boot)

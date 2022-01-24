@@ -54,92 +54,55 @@ Ementa
 Horário das aulas e atendimento
 ===============================
 
-Aulas teóricas e de exercícios: segundas, terças e quintas-feiras às 14h 
+Aulas teóricas e de exercícios: segundas (às 14h), quartas e sextas (às 10h) 
 Atendimento e monitoria: a definir
 
 
 Informações importantes
 =======================
 
-Este curso utiliza GitHub para gerenciar o curso. A comunicação com a turma é 
-feita através de issues no repositório do Github. Habilite a funcionalidade 
-"Watch" no repositório para receber notificações sobre atualizações.
+Este curso utiliza uma série de plataformas diferentes. A comunicação com a turma é 
+feita através do Telegram e Github. As aulas síncronas utilizam a plataforma Teams.
 
-Microsoft Teams:
-    http://classroom.google.com/ - Código de inscrição: 1byukn
-Github:
-    http://github.com/fabiommendes/apc2018/
+Veja mais detalhes sobre as plataformas utilizadas e como configurar os ambientes de
+programação no arquivo INSTALACAO.md neste repositório.
 
 
 Critérios de avaliação
 ======================
 
-Cada aluno será avaliado com uma nota numérica onde a conversão entre a 
-pontuação e a menção final é feita da forma usual: 9,0pts+: SS, 7,0pts+: MS, 
-5,0pts+: MM, 3,0pts+: MI e < 3,0 pts II. A distribuição de pontos ao longo do 
-curso segue a fórmula::
+A avaliação é baseada no domínio de diversas competências e obtenção de medalhas 
+relacionadas ao conteúdo do curso. A lista de competências está no arquivo 
+COMPETENCIAS.md e a de medalhas em MEDALHAS.md 
 
-    NotaFinal = 0.3 * P1 + 0.35 * P2 + 0.35 * P3
+Cada competência é avaliada com uma nota numérica, 
+onde a pontuação pode ser obtida por vários meios (provas, trabalhos, tutoriais, 
+entre outros). O aluno precisa de uma nota numérica maior ou igual a 10 para ser 
+considerado proficiente em cada uma destas competências.
 
-onde P1, P2 e P3 consistem na nota das provas 1, 2 e 3.
+As competências são itens considerados essenciais para a compreensão da disciplina 
+e todos alunos precisam demonstrar proficiência em todas estas competências 
+para serem aprovados. 
 
-300
----
+Medalhas representam feitos que demonstram conhecimento mais aprofundado sobre 
+os assuntos abordados no curso, além de habilitarem menções mais altas.
 
-Prova substitutiva e faltas
----------------------------
+A menção final é calculada da seguinte maneira:
 
-O curso não inclui prova substitutiva. Caso o aluno possua uma falta justificada 
-no dia da primeira prova, deverá apresentar um comprovante na aula seguinte à 
-prova ou quando terminar a licença médica. Esta justificativa não abona falta, 
-mas dá direito ao aluno participar do 300 e utilizar a nota da segunda prova. 
+* MI: Obteve pelo menos metade das competências básicas
+* MM: Obteve todas as competências básicas menos uma.
+* MS: Obteve todas as competências básicas e pelo menos 10 medalhas.
+* SS: Obteve todas as competências básicas e pelo menos 20 medalhas.
 
-O aluno pode faltar até 12 vezes em um semestre. Faltas com justificativa médica 
-não serão abonadas, exceto em casos excepcionais. Os alunos reprovados por 
-falta ficarão com uma menção igual a SR.
 
 Código de ética e conduta
 -------------------------
 
-As avaliações serão realizadas com auxílio do computador no laboratório de 
-informática. Todas as submissões serão processadas por um programa de detecção 
-de plágio. Qualquer atividade onde for detectada a presença de plágio será 
-anulada sem a possibilidade de substituição. Não será feita qualquer distinção 
-entre o aluno que forneceu a resposta para cópia e o aluno que obteve a mesma.
-
-
-Prepare-se
-==========
-
-O curso utiliza alguns pacotes Python para os quais cada estudante deverá 
-providenciar a instalação o mais cedo o possível. O curso requer Python 3.6+ 
-com alguns pacotes instalados:
-
-* Python: Versão 3.6+
-* Pip: Gerenciador de pacotes do Python (sudo apt-get install python3-pip)
-* Editores de código/IDE:
-    Utilize o seu favorito. Caso precise de uma recomendação, seguem algumas:
-    * VSCode - um bom meio termo entre uma IDE e um editor de código leve. 
-        Criado para Javascript, mas possui bons plugins para Python e várias 
-        outras linguagens.
-    * PyCharm Educacional - IDE com ótimos recursos profisionais que adora 
-        a sua memória RAM. Possui versão livre e versão profissional gratuita 
-        para estudantes.
-
-DICA: em todos os casos, prefira instalar os pacotes Python utilizando o 
-apt-get e somente se o pacote não existir, instale-o utilizando o pip. Se 
-utilizar o pip, faça a instalação de usuário utilizando o comando 
-``pip3 install <pacote> --user`` (NUNCA utilize o sudo junto com --user e evite 
-instalar globalmente para evitar problemas futuros com o APT).
-
-Linux
------
-
-Os comandos de instalação acima assumem uma distribuição de Linux baseada em 
-Debian como o Ubuntu ou o Mint. Não é necessário instalar uma distribuição 
-deste tipo e você pode adaptar os comandos para o gerenciador de pacotes da sua 
-distribuição (ou o Brew, no caso do OS X).
-
+As avaliações serão realizadas com auxílio do computador. Todas as submissões poderão 
+ser processadas por um programa de detecção de plágio. Qualquer atividade onde for 
+detectada a presença de plágio será anulada sem a possibilidade de substituição. Não 
+será feita qualquer distinção entre o aluno que forneceu a resposta para cópia e 
+o aluno que obteve a mesma.
 
 Bibliografia principal
 ----------------------

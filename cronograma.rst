@@ -1,286 +1,347 @@
-+--------+-------+------------------------------------------------------------+
-| Semana | Dia   | Atividade                                                  |
-+========+=======+============================================================+
-|    1   | 19/07 | Início das aulas – Apresentação do curso                   |
-|        |       |                                                            |
-|        |       | * Formato do curso na pandemia                             |
-|        |       | * Ementa                                                   |
-|        |       | * Tecnologias utilizadas                                   |
-|        |       | * Como se preparar                                         |
-|        |       | * Critérios de avaliação                                   |
-|        +-------+------------------------------------------------------------+
-|        | 21/07 | Datalore                                                   |
-|        |       |                                                            |
-|        |       | * Rodando Python na nuvem                                  |
-|        |       | * Comandos simples e váriáveis                             |
-|        |       | * Opcional: notebooks locais, shell do Python e arquivos   |
-|        |       |   de código fonte.                                         |
-|        +-------+------------------------------------------------------------+
-|        | 23/07 | Blocos básicos de programação                              |
-|        |       |                                                            |
-|        |       | * Python como uma calculadora                              |
-|        |       | * Execução de funções                                      |
-|        |       | * Execução sequencial                                      |
-|        |       | * Execução condicional                                     |
-|        |       | * Laços                                                    |
-|        |       | * Funções e reaproveitamento de código                     |
-+--------+-------+------------------------------------------------------------+
-|    2   | 26/07 | Listas                                                     |
-|        |       |                                                            |
-|        |       | * Acessando elementos da lista                             |
-|        |       | * Criando listas dinamicamente                             |
-|        |       | * Métodos de listas                                        |
-|        |       | * Descobrindo propriedades de listas                       |
-|        +-------+------------------------------------------------------------+
-|        | 28/07 | Comando "for"                                              |
-|        |       |                                                            |
-|        |       | * Iterando sobre sequências                                |
-|        |       | * "while" vs. "for"                                        |
-|        |       | * Contadores, acumuladores, condições de parada            |
-|        |       | * Comandos "break" e "continue"                            |
-|        +-------+------------------------------------------------------------+
-|        | 30/07 | Gráficos                                                   |
-|        |       |                                                            |
-|        |       | * Biblioteca matplotlib                                    |
-|        |       | * Criando gráficos                                         |
-|        |       | * Alguns exemplos de tipos de gráficos                     |
-|        |       | * Desenhando figuras                                       |
-+--------+-------+------------------------------------------------------------+
-|    3   | 02/08 | Laboratório: "Turtle graphics" (aula assíncrona)           |
-|        |       |                                                            |
-|        |       | * Criando uma biblioteca de funções simples                |
-|        |       | * Módulo turtle                                            |
-|        |       | * Implementando para uma interface                         |
-|        |       | * Desafios "turtle"                                        |
-|        +-------+------------------------------------------------------------+
-|        | 04/08 | Funções                                                    |
-|        |       |                                                            |
-|        |       | * Funções na matemática e na programação                   |
-|        |       | * Importando e executando funções                          |
-|        |       | * Definindo funções novas e reutilização de código         |
-|        |       | * Funções e abstração da implementação                     |
-|        +-------+------------------------------------------------------------+
-|        | 06/08 | Teste de código                                            |
-|        |       |                                                            |
-|        |       | * Comando "assert"                                         |
-|        |       | * Testes unitários                                         |
-|        |       | * Instalando e utilizando o pytest                         |
-+--------+-------+------------------------------------------------------------+
-|    4   | 09/08 | Dicionários                                                |
-|        |       |                                                            |
-|        |       | * Dicionários como funções                                 |
-|        |       | * Acessando e modificando elementos de um dicionário       |
-|        |       | * Iteração sobre dicionários                               |
-|        |       | * Criando um contador                                      |
-|        |       | * Exemplo: texto cifrado                                   |
-|        +-------+------------------------------------------------------------+
-|        | 11/08 | Cadeias de caracteres                                      |
-|        |       |                                                            |
-|        |       | * Manipulação de texto                                     |
-|        |       | * Descobrindo informações sobre strings                    |
-|        |       | * Operações básicas                                        |
-|        |       | * Strings de interpolação                                  |
-|        |       | * Strings multilinhas                                      |
-|        +-------+------------------------------------------------------------+
-|        | 13/08 | Laboratório: "Aula do fim do mundo"                        |
-|        |       |                                                            |
-|        |       | * Mapeando strings em números: UTF-8 e Gematria            |
-|        |       | * Apocalipse 13:18                                         |
-+--------+-------+------------------------------------------------------------+
-|    5   | 16/08 | Git + Github                                               |
-|        |       |                                                            |
-|        |       | * Carregando e atualizando repositórios                    |
-|        |       | * Comits, Forks, Pull, Push...                             |
-|        |       | * Atualizando seu repositório                              |
-|        |       | * Github classroom                                         |
-|        +-------+------------------------------------------------------------+
-|        | 18/08 | Dúvidas, discussões, exercícios, etc                       |
-|        +-------+------------------------------------------------------------+
-|        | 20/08 | Recursão                                                   |
-|        |       |                                                            |
-|        |       | * Usando recursão para criar repetições                    |
-|        |       | * Declarativo vs imperativo                                |
-|        |       | * Exemplos de algoritmos recursivos                        |
-|        |       | * Recursão vs laços: vantagens e desvantagens              |
-+--------+-------+------------------------------------------------------------+
-|    6   | 23/08 | Laboratório: Fractais e sistemas formais (aula assíncrona) |
-|        |       |                                                            |
-|        |       | * Fractais como estruturas recursivas                      |
-|        |       | * Sistemas de Lindenmayer                                  |
-|        |       | * Execução de sistemas-L                                   |
-|        |       | * Renderização                                             |
-|        +-------+------------------------------------------------------------+
-|        | 25/08 | Algoritmos                                                 |
-|        |       |                                                            |
-|        |       | * Definição e histórico                                    |
-|        |       | * Fluxogramas                                              |
-|        |       | * Exemplos de resolução de problemas                       |
-|        +-------+------------------------------------------------------------+
-|        | 27/08 | Análise de complexidade                                    |
-|        |       |                                                            |
-|        |       | * Tempo de execução de programas                           |
-|        |       | * Memória vs. CPU                                          |
-|        |       | * Escolha de algoritmos                                    |
-|        |       | * Exemplo: Fibonacci recursivo                             |
-+--------+-------+------------------------------------------------------------+
-|    7   | 30/08 | Pyxel I                                                    |
-|        |       |                                                            |
-|        |       | * Funções básicas: update(), draw()                        |
-|        |       | * Desenhando na tela                                       |
-|        |       | * Lendo comandos do usuário                                |
-|        +-------+------------------------------------------------------------+
-|        | 01/09 | Pyxel II                                                   |
-|        |       |                                                            |
-|        |       | * Controlando um personagens                               |
-|        |       | * Simulação de gravidade                                   |
-|        |       | * Colisões simples                                         |
-|        +-------+------------------------------------------------------------+
-|        | 03/09 | Pyxel III                                                  |
-|        |       |                                                            |
-|        |       | * Pixel art e o pyxeleditor                                |
-|        |       | * Carregando imagens                                       |
-|        |       | * Criando animações                                        |
-+--------+-------+------------------------------------------------------------+
-|    8   | 06/09 | Laboratório: Implementando o Pong (aula assíncrona)        |
-|        |       |                                                            |
-|        |       | * Controlando as pás                                       |
-|        |       | * Colisões                                                 |
-|        |       | * Efeitos especiais (?)                                    |
-|        +-------+------------------------------------------------------------+
-|        | 08/09 | Entrada/Saída                                              |
-|        |       |                                                            |
-|        |       | * Leitura de entradas do usuário                           |
-|        |       | * Conversão de tipos                                       |
-|        |       | * Formatação de strings                                    |
-|        |       | * Scripts python                                           |
-|        +-------+------------------------------------------------------------+
-|        | 10/09 | Manipulação de arquivos                                    |
-|        |       |                                                            |
-|        |       | * Leitura e escrita de arquivos em modo texto              |
-|        |       | * Bloco "with"                                             |
-|        |       | * Modo binário                                             |
-|        |       | * Arquivos estruturados: JSON                              |
-+--------+-------+------------------------------------------------------------+
-|    9   | 13/09 | Estruturas de repetição: comandos avançados                |
-|        |       |                                                            |
-|        |       | * Comandos "for" e "while"                                 |
-|        |       | * Instruções "break" e "continue"                          |
-|        |       | * Retornando de dentro de funções                          |
-|        |       | * Laços com funções                                        |
-|        +-------+------------------------------------------------------------+
-|        | 15/09 | Funções: comandos avançados                                |
-|        |       |                                                            |
-|        |       | * Argumentos opcionais                                     |
-|        |       | * Passando argumentos por nome ou posição                  |
-|        |       | * Funções variádicas                                       |
-|        +-------+------------------------------------------------------------+
-|        | 17/09 | Listas, tuplas e conjuntos: comandos avançados             |
-|        |       |                                                            |
-|        |       | * Fatiamento                                               |
-|        |       | * Diferentes sequências do Python                          |
-|        |       | * Imutabilidade                                            |
-+--------+-------+------------------------------------------------------------+
-|   10   | 20/09 | Dúvidas, discussões, exercícios, etc                       |
-|        +-------+------------------------------------------------------------+
-|        | 22/09 | Introdução à programação Web                               |
-|        |       |                                                            |
-|        |       | * HTML e CSS                                               |
-|        |       | * Principais tags HTML                                     |
-|        |       | * Ferramentas úteis no navegador                           |
-|        |       | * Criando um servidor de páginas estático                  |
-|        +-------+------------------------------------------------------------+
-|        | 24/09 | Django                                                     |
-|        |       |                                                            |
-|        |       | * Criando endpoints                                        |
-|        |       | * Banco de dados                                           |
-|        |       | * Servindo páginas dinamicamente                           |
-+--------+-------+------------------------------------------------------------+
-|   11   | 27/09 | Blog simples                                               |
-|        |       |                                                            |
-|        |       | * Operações CRUD                                           |
-|        |       | * Django Girls                                             |
-|        +-------+------------------------------------------------------------+
-|        | 29/09 | Introdução ao C                                            |
-|        |       |                                                            |
-|        |       | * Sintaxe básica do C                                      |
-|        |       | * Estrutura de um arquivo C                                |
-|        |       | * Tipos de variáveis                                       |
-|        |       | * Função main()                                            |
-|        +-------+------------------------------------------------------------+
-|        | 01/10 | Entrada e Saída                                            |
-|        |       |                                                            |
-|        |       | * Função printf e scanf                                    |
-|        |       | * Operadores de formatação                                 |
-|        |       | * Includes                                                 |
-+--------+-------+------------------------------------------------------------+
-|   12   | 04/10 | Representação de inteiros                                  |
-|        |       |                                                            |
-|        |       | * Representação binária, octal e hexadecimal               |
-|        |       | * Conversão de representações                              |
-|        |       | * Literais de binários, octais e hexadecimais              |
-|        |       | * Máscaras de bits                                         |
-|        +-------+------------------------------------------------------------+
-|        | 06/10 | Laços "for" e "while"                                      |
-|        |       |                                                            |
-|        |       | * Sintaxe básica                                           |
-|        |       | * Variáveis contadoras e acumuladoras                      |
-|        |       | * Quebra de laços                                          |
-|        |       | * Índices e contadores                                     |
-|        |       | * Conversão de "for" para "while"                          |
-|        +-------+------------------------------------------------------------+
-|        | 08/10 | Laboratório: Sequência de Collatz                          |
-|        |       |                                                            |
-|        |       | * Recursão fundamental vs contingencial                    |
-|        |       | * Problema da computabilidade                              |
-|        |       | * Python vs C                                              |
-|        |       | * Programação dinâmica com o "lru_cache"                   |
-+--------+-------+------------------------------------------------------------+
-|   13   | 11/10 | Arrays                                                     |
-|        |       |                                                            |
-|        |       | * Criação de arrays                                        |
-|        |       | * Acesso a elementos                                       |
-|        |       | * Overflow                                                 |
-|        |       | * Comparação com listas                                    |
-|        +-------+------------------------------------------------------------+
-|        | 13/10 | Números de ponto flutuante                                 |
-|        |       |                                                            |
-|        |       | * Ponto fixo                                               |
-|        |       | * Ponto flutuante e notação científica                     |
-|        |       | * Ponto flutuante binário                                  |
-|        +-------+------------------------------------------------------------+
-|        | 15/10 | Structs                                                    |
-|        |       |                                                            |
-|        |       | * Tipos de dados compostos                                 |
-|        |       | * Acessando campos de um struct                            |
-|        |       | * Disposição de elementos na memória                       |
-|        |       | * Structs que guardam arrays                               |
-+--------+-------+------------------------------------------------------------+
-|   14   | 18/10 | Interação com o Python                                     |
-|        |       |                                                            |
-|        |       | * Chamando funções C                                       |
-|        |       | * Preparando dados para passar para o C                    |
-|        |       | * Módulo ctypes                                            |
-|        +-------+------------------------------------------------------------+
-|        | 20/10 | Makefiles                                                  |
-|        |       |                                                            |
-|        |       | * Projetos com mais de um arquivo                          |
-|        |       | * Compilando projetos complexos                            |
-|        |       | * Automatizando a compilação com o Make                    |
-|        +-------+------------------------------------------------------------+
-|        | 22/10 | Jogo da vida I                                             |
-|        |       |                                                            |
-|        |       | * Recompilando o Pyxel                                     |
-|        |       | * Renderizando um array                                    |
-|        |       | * Renderização parcial                                     |
-+--------+-------+------------------------------------------------------------+
-|   15   | 25/10 | Jogo da vida II                                            |
-|        |       |                                                            |
-|        |       | * Atualização do tabuleiro em C                            |
-|        |       | * Comparação de performance                                |
-|        +-------+------------------------------------------------------------+
-|        | 27/10 | Dúvidas, discussões, exercícios, etc                       |
-|        +-------+------------------------------------------------------------+
-|        | 29/10 | Entrega de trabalhos                                       |
-+--------+-------+------------------------------------------------------------+
-|   16   | 01/11 | Revisão de notas                                           |
-+--------+-------+------------------------------------------------------------+
++--------+-------+------------------------------------------------------------------+
+| Semana | Dia   | Atividade                                                        |
++========+=======+==================================================================+
+|    1   | 17/01 | Início das aulas – Apresentação do curso  (Atividade síncrona)   |
+|        |       |                                                                  |
+|        |       | * Formato do curso                                               |
+|        |       | * Ementa                                                         |
+|        |       | * Tecnologias utilizadas                                         |
+|        |       | * Como se preparar                                               |
+|        |       | * Critérios de avaliação                                         |
+|        +-------+------------------------------------------------------------------+
+|        | 19/01 | Ambientes de programação  (Atividade síncrona)                   |
+|        |       |                                                                  |
+|        |       | * Arquivos de código                                             |
+|        |       | * Rodando Python na nuvem: Repl.it                               |
+|        |       | * VSCode e ambientes locais                                      |
+|        |       | * Shell Python, terminal, notebooks, etc                         |
+|        +-------+------------------------------------------------------------------+
+|        | 21/01 | Programação gráfica com o "Turtle"                               |
+|        |       |                                                                  |
+|        |       | * Módulo turtle                                                  |
+|        |       | * Importando e executando funções                                |
+|        |       | * Criando figuras simples                                        |
+|        |       | * Objetos, métodos e funções                                     |
+|        |       |                                                                  |
+|        |       | Vídeo: https://youtu.be/VaRifY8-sQ0                              |
++--------+-------+------------------------------------------------------------------+
+|    2   | 24/01 | Reaproveitamento de comandos e abstração                         |
+|        |       |                                                                  |
+|        |       | * Criando funções com o comando "def"                            |
+|        |       | * Argumentos de entrada                                          |
+|        |       | * Argumentos opcionais                                           |
+|        |       | * Valores de retorno                                             |
+|        |       | * Execução condicional                                           |
+|        |       | * Repetições com funções                                         |
+|        |       |                                                                  |
+|        |       | Vídeo: https://youtu.be/_N53uJGX22Q                              |
+|        +-------+------------------------------------------------------------------+
+|        | 26/01 | Laços de repetição                                               |
+|        |       |                                                                  |
+|        |       | * Comando "for"                                                  |
+|        |       | * Comando "while"                                                |
+|        |       | * "while" vs. "for"                                              |
+|        |       | * Contadores, acumuladores, condições de parada                  |
+|        |       |                                                                  |
+|        |       | Vídeo: https://youtu.be/_Vj8z9UG9Vs                              |
+|        +-------+------------------------------------------------------------------+
+|        | 28/01 | Funções                                                          |
+|        |       |                                                                  |
+|        |       | * Funções na matemática e na programação                         |
+|        |       | * Abstração de implementação                                     |
+|        |       | * Interfaces de programação e organização de código              |
+|        |       | * Argumentos opcionais                                           |
+|        |       | * Valores por nome ou posição                                    |
+|        |       | * Variáveis locais vs globais                                    |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
++--------+-------+------------------------------------------------------------------+
+|    3   | 31/01 | Dojo pandêmico (Atividade síncrona)                              |
+|        |       |                                                                  |
+|        |       | * Desafios "turtle"                                              |
+|        |       | * Dojo pandêmico                                                 |
+|        +-------+------------------------------------------------------------------+
+|        | 02/02 | Introdução ao Pyxel                                              |
+|        |       |                                                                  |
+|        |       | * Funções básicas: update(), draw()                              |
+|        |       | * Desenhando na tela                                             |
+|        |       | * Lendo comandos do usuário                                      |
+|        |       | * Documentação e projeto Pyxel no Github                         |
+|        |       | * Criando um jogo simples                                        |
+|        |       | * Distribuindo jogos Pyxel                                       |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
+|        +-------+------------------------------------------------------------------+
+|        | 04/02 | Incluindo arte no Pyxel                                          |
+|        |       |                                                                  |
+|        |       | * Pixel art e o pyxel editor                                     |
+|        |       | * Carregando imagens                                             |
+|        |       | * Criando animações                                              |
+|        |       | * Sons e música                                                  |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
++--------+-------+------------------------------------------------------------------+
+|    4   | 07/02 | Python interativo                                                |
+|        |       |                                                                  |
+|        |       | * Configurando ambiente                                          |
+|        |       | * IPython e shell interativo                                     |
+|        |       | * Notebooks                                                      |
+|        |       | * Datalore e Python na nuvem                                     |
+|        |       | * Testando programas no modo interativo                          |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
+|        +-------+------------------------------------------------------------------+
+|        | 09/02 | Orientação a objetos                                             |
+|        |       |                                                                  |
+|        |       | * Criando objetos                                                |
+|        |       | * Inicialização                                                  |
+|        |       | * Entendendo o "self"                                            |
+|        |       | * Métodos                                                        |
+|        |       | * Exemplo em jogos                                               |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
+|        +-------+------------------------------------------------------------------+
+|        | 11/02 | Git + Github                                                     |
+|        |       |                                                                  |
+|        |       | * Carregando e atualizando repositórios                          |
+|        |       | * Commits, Forks, Pull, Push...                                  |
+|        |       | * Atualizando seu repositório                                    |
+|        |       | * Github classroom                                               |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
++--------+-------+------------------------------------------------------------------+
+|    5   | 14/02 | Entrada/Saída                                                    |
+|        |       |                                                                  |
+|        |       | * Leitura de entradas do usuário                                 |
+|        |       | * Conversão de tipos                                             |
+|        |       | * Formatação de strings                                          |
+|        |       | * Scripts python                                                 |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
+|        +-------+------------------------------------------------------------------+
+|        | 16/02 | Listas                                                           |
+|        |       |                                                                  |
+|        |       | * Acessando elementos da lista                                   |
+|        |       | * Métodos de listas: pop(), append() e outros                    |
+|        |       | * Fatiamento                                                     |
+|        |       | * Criando listas dinamicamente                                   |
+|        |       | * Descobrindo propriedades de listas                             |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
+|        +-------+------------------------------------------------------------------+
+|        | 18/02 | Cadeias de caracteres                                            |
+|        |       |                                                                  |
+|        |       | * Manipulação de texto                                           |
+|        |       | * Descobrindo informações sobre strings                          |
+|        |       | * Operações básicas                                              |
+|        |       | * Strings de interpolação                                        |
+|        |       | * Strings multilinhas                                            |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
++--------+-------+------------------------------------------------------------------+
+|    6   | 21/02 | Dicionários                                                      |
+|        |       |                                                                  |
+|        |       | * Dicionários como funções                                       |
+|        |       | * Acessando e modificando elementos de um dicionário             |
+|        |       | * Iteração sobre dicionários                                     |
+|        |       | * Criando um contador                                            |
+|        |       | * Exemplo: texto cifrado                                         |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
+|        +-------+------------------------------------------------------------------+
+|        | 23/02 | Teste de código                                                  |
+|        |       |                                                                  |
+|        |       | * Comando "assert"                                               |
+|        |       | * Testes unitários                                               |
+|        |       | * Instalando e utilizando o pytest                               |
+|        |       | * Exercícios de programação                                      |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
+|        +-------+------------------------------------------------------------------+
+|        | 25/02 | Dojo pandêmico: "Aula do fim do mundo"                           |
+|        |       |                                                                  |
+|        |       | * Mapeando strings em números: UTF-8 e Gematria                  |
+|        |       | * Apocalipse 13:18                                               |
+|        |       | * Implementando a Gamatria                                       |
++--------+-------+------------------------------------------------------------------+
+|    7   | 28/02 | *Feriado: Carnaval*                                              |
+|        +-------+------------------------------------------------------------------+
+|        | 02/03 | *Feriado: Carnaval*                                              |
+|        +-------+------------------------------------------------------------------+
+|        | 04/03 | **Avaliação: Python Básico**                                     |
+|        |       |                                                                  |
+|        |       | Avaliação para as competências estudadas na primeira             |
+|        |       | parte do curso                                                   |
++--------+-------+------------------------------------------------------------------+
+|    8   | 07/03 | Algoritmos                                                       |
+|        |       |                                                                  |
+|        |       | * Definição e histórico                                          |
+|        |       | * Fluxogramas                                                    |
+|        |       | * Análise de complexidade                                        |
+|        |       | * Custos de memória vs. CPU                                      |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
+|        +-------+------------------------------------------------------------------+
+|        | 09/03 | Debugando código Python                                          |
+|        |       |                                                                  |
+|        |       | * Debug com prints                                               |
+|        |       | * IPython.embed()                                                |
+|        |       | * Ferramentas de rastreamento                                    |
+|        |       | * Rastreando linhas e variáveis                                  |
+|        |       | * Encontrando bugs com um debugger                               |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
+|        +-------+------------------------------------------------------------------+
+|        | 11/03 | Recursão                                                         |
+|        |       |                                                                  |
+|        |       | * Usando recursão para criar repetições                          |
+|        |       | * Declarativo vs imperativo                                      |
+|        |       | * Exemplos de algoritmos recursivos                              |
+|        |       | * Recursão vs laços: vantagens e desvantagens                    |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
++--------+-------+------------------------------------------------------------------+
+|    9   | 14/03 | Laboratório: Fractais e sistemas formais                         |
+|        |       |                                                                  |
+|        |       | * Fractais como estruturas recursivas                            |
+|        |       | * Sistemas de Lindenmayer                                        |
+|        |       | * Execução de sistemas-L                                         |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
+|        +-------+------------------------------------------------------------------+
+|        | 16/03 | Introdução à programação funcional                               |
+|        |       |                                                                  |
+|        |       | * Funções map/filter/reduce                                      |
+|        |       | * Declaração de lambdas                                          |
+|        |       | * Sequências "lazy"                                              |
+|        |       | * Fechamentos e funções que retornam funções                     |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
+|        +-------+------------------------------------------------------------------+
+|        | 18/03 | Manipulação de arquivos                                          |
+|        |       |                                                                  |
+|        |       | * Leitura e escrita de arquivos em modo texto                    |
+|        |       | * Bloco "with"                                                   |
+|        |       | * Arquivos estruturados: JSON                                    |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
++--------+-------+------------------------------------------------------------------+
+|   10   | 21/03 | **Avaliação: Conceitos de ciências da computação e programação** |
+|        |       |                                                                  |
+|        |       | Avaliação para as competências estudadas na segunda              |
+|        |       | parte do curso                                                   |
+|        +-------+------------------------------------------------------------------+
+|        | 23/03 | Introdução ao C                                                  |
+|        |       |                                                                  |
+|        |       | * Sintaxe básica do C                                            |
+|        |       | * Estrutura de um arquivo C                                      |
+|        |       | * Tipos de variáveis                                             |
+|        |       | * Função main()                                                  |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
+|        +-------+------------------------------------------------------------------+
+|        | 25/03 | Ambiente de programação em C                                     |
+|        |       |                                                                  |
+|        |       | * Compilação e execução de programas                             |
+|        |       | * Compilador TCC                                                 |
+|        |       | * Configurando o VSCode                                          |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
++--------+-------+------------------------------------------------------------------+
+|   11   | 28/03 | Entrada e Saída                                                  |
+|        |       |                                                                  |
+|        |       | * Funções printf() e scanf()                                     |
+|        |       | * Operadores de formatação                                       |
+|        |       | * Includes                                                       |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
+|        +-------+------------------------------------------------------------------+
+|        | 30/03 | Laços "for" e "while"                                            |
+|        |       |                                                                  |
+|        |       | * Sintaxe básica                                                 |
+|        |       | * Variáveis contadoras e acumuladoras                            |
+|        |       | * Quebra de laços                                                |
+|        |       | * Índices e contadores                                           |
+|        |       | * Conversão de "for" para "while"                                |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
+|        +-------+------------------------------------------------------------------+
+|        | 01/04 | Representação de inteiros                                        |
+|        |       |                                                                  |
+|        |       | * Representação binária, octal e hexadecimal                     |
+|        |       | * Conversão de representações                                    |
+|        |       | * Literais de binários, octais e hexadecimais                    |
+|        |       | * Máscaras de bits                                               |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
++--------+-------+------------------------------------------------------------------+
+|   12   | 04/04 | Arrays                                                           |
+|        |       |                                                                  |
+|        |       | * Criação de arrays                                              |
+|        |       | * Acesso a elementos                                             |
+|        |       | * Overflow                                                       |
+|        |       | * Comparação com listas                                          |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
+|        +-------+------------------------------------------------------------------+
+|        | 06/04 | Números de ponto flutuante                                       |
+|        |       |                                                                  |
+|        |       | * Ponto fixo                                                     |
+|        |       | * Ponto flutuante e notação científica                           |
+|        |       | * Ponto flutuante binário                                        |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
+|        +-------+------------------------------------------------------------------+
+|        | 08/04 | Structs                                                          |
+|        |       |                                                                  |
+|        |       | * Tipos de dados compostos                                       |
+|        |       | * Acessando campos de um struct                                  |
+|        |       | * Disposição de elementos na memória                             |
+|        |       | * Structs que guardam arrays                                     |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
++--------+-------+------------------------------------------------------------------+
+|   13   | 11/04 | Ponteiros                                                        |
+|        |       |                                                                  |
+|        |       | * Ponteiros para variávies                                       |
+|        |       | * Referenciando e dereferenciando valores                        |
+|        |       | * Ponteiros para structs e arrays                                |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
+|        +-------+------------------------------------------------------------------+
+|        | 13/04 | Debugando código C                                               |
+|        |       |                                                                  |
+|        |       | * Executando em modo debug                                       |
+|        |       | * Rastreamento de linhas                                         |
+|        |       | * Encontrando bugs e entendendo o funcionamento do código        |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
+|        +-------+------------------------------------------------------------------+
+|        | 15/04 | *Feriado: Paixão de Cristo*                                      |
++--------+-------+------------------------------------------------------------------+
+|   14   | 18/04 | Dojo pandêmico: Mandelbrot                                       |
+|        |       |                                                                  |
+|        |       | * Implementação em Python vs C                                   |
+|        |       | * Comparação de performance                                      |
+|        |       | * Precisão numérica                                              |
+|        +-------+------------------------------------------------------------------+
+|        | 20/04 | Interação com o Python                                           |
+|        |       |                                                                  |
+|        |       | * Chamando funções C                                             |
+|        |       | * Preparando dados para passar para o C                          |
+|        |       | * Integração com o Pyxel                                         |
+|        |       | * Módulo ctypes                                                  |
+|        |       |                                                                  |
+|        |       | Vídeo: *em elaboração*                                           |
+|        +-------+------------------------------------------------------------------+
+|        | 22/04 | *Feriado: Tiradentes*                                            |
++--------+-------+------------------------------------------------------------------+
+|   15   | 25/04 | **Avaliação: programação em C**                                  |
+|        |       |                                                                  |
+|        |       | Avaliação para as competências estudadas na segunda              |
+|        |       | parte do curso                                                   |
+|        +-------+------------------------------------------------------------------+
+|        | 27/04 | Entrega de trabalhos                                             |
+|        +-------+------------------------------------------------------------------+
+|        | 29/04 | Revisão de notas                                                 |
++--------+-------+------------------------------------------------------------------+

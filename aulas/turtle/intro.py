@@ -1,5 +1,4 @@
 from turtle import *
-import turtledemo.peace
 
 alice = Turtle()
 bob = Turtle()
